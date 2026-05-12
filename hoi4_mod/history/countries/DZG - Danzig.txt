@@ -1,0 +1,22 @@
+capital = 85
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1950.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+    neutrality = 70
+    communism = 20
+    fascism = 5
+    democratic = 5
+}
+
+add_ideas = {
+    DZG_first_vozhd_of_the_beaver_host
+    DZG_partisan_movement
+    DZG_failed_army
+    DZG_cult_of_the_great_dam
+}
