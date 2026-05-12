@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and caches
+*.log
+__pycache__/
+.pytest_cache/
+
+# HOI4 generated/output folders
+hoi4_mod/.metadata/
+hoi4_mod/.launcher-cache/
+hoi4_mod/logs/
+
