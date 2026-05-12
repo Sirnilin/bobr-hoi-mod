@@ -1,66 +1,75 @@
 DZG = {
     male = {
         names = {
-            Aleksander
-            Andrzej
-            Jan
-            Kazimierz
-            Marek
-            Pawel
-            Piotr
-            Stanislaw
-            Tadeusz
-            Wladyslaw
-            Albert
-            Erich
-            Friedrich
-            Hans
-            Johann
-            Karl
-            Otto
-            Wilhelm
+            "Aleksander-Dam"
+            "Andrzej-Log"
+            "Jan-Zapruzhny"
+            "Kazimierz-Canal"
+            "Marek-Tail"
+            "Pawel-Sluice"
+            "Piotr-Bark"
+            "Stanislaw-Timber"
+            "Tadeusz-Lodge"
+            "Wladyslaw-Flood"
+            "Albert-Beaver"
+            "Erich-Wetboots"
+            "Friedrich-Plank"
+            "Hans-Mud"
+            "Johann-Woodteeth"
+            "Karl-Riverbite"
+            "Otto-Damwatch"
+            "Wilhelm-Branch"
         }
     }
 
     female = {
         names = {
-            Anna
-            Ewa
-            Jadwiga
-            Katarzyna
-            Maria
-            Zofia
-            Elsa
-            Greta
-            Helga
-            Marta
+            "Anna-Dam"
+            "Ewa-Canal"
+            "Jadwiga-Branch"
+            "Katarzyna-Sluice"
+            "Maria-Timber"
+            "Zofia-Lodge"
+            "Elsa-Wetboots"
+            "Greta-Plank"
+            "Helga-Riverbite"
+            "Marta-Log"
         }
     }
 
     surnames = {
-        Brzeg
-        Cieslak
-        Dambrowski
-        Hoffmann
-        Kowalski
-        Krawiec
-        Lewandowski
-        Nowak
-        Pawlak
-        Richter
-        Schreiber
-        Schulz
-        Sokolowski
-        Stein
-        Wendt
-        Zielinski
+        "von Zapruda"
+        "Damoborski"
+        "Beaverstein"
+        "Plotnitsky"
+        "Holzogon"
+        "Gnawalski"
+        "Tailmann"
+        "Brzegobor"
+        "Kanalewski"
+        "Logowski"
+        "Sluicek"
+        "Mudry"
+        "Borkiewicz"
+        "Dambrowski"
+        "Woodzinski"
+        "Riverhoff"
+        "Barkmann"
+        "Zubrowicz"
+        "Plankowski"
+        "Floodenberg"
     }
 
     callsigns = {
         "Great Dam"
-        "River Guard"
+        "Sacred Tail"
+        "Wet Hammer"
         "Old Canal"
-        "Timberline"
-        "Danzig Watch"
+        "Timber Teeth"
+        "Mud Prophet"
+        "The Last Log"
+        "Sluice Saint"
+        "Branch Marshal"
+        "Danzig Gnawer"
     }
 }
