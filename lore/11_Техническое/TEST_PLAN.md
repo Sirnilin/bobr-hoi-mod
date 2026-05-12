@@ -16,6 +16,41 @@
 - Проверить, что нет критических ошибок парсинга в `error.log`.
 - Проверить, что русская локализация загружается без `missing localization`.
 
+## Первый тест идей Данцига
+
+Файлы для проверки:
+
+- `hoi4_mod/common/ideas/BR_DZG_ideas.txt`
+- `hoi4_mod/localisation/russian/BR_DZG_ideas_l_russian.yml`
+
+Запуск:
+
+- В Steam или лаунчере добавить параметр запуска `-debug`.
+- Включить только World Dam Order.
+- Перед запуском очистить старый `error.log`.
+
+Где смотреть `error.log`:
+
+- Windows: `Documents/Paradox Interactive/Hearts of Iron IV/logs/error.log`.
+- macOS: `~/Documents/Paradox Interactive/Hearts of Iron IV/logs/error.log`.
+- Linux: `~/.local/share/Paradox Interactive/Hearts of Iron IV/logs/error.log`.
+
+Что должно пройти без ошибок:
+
+- файл `BR_DZG_ideas.txt` должен распарситься без ошибок скобок;
+- файл `BR_DZG_ideas_l_russian.yml` должен загрузиться как русская локализация;
+- после привязки идей к стране, фокусу или консольному тесту должны отображаться русские названия и описания для `DZG_first_vozhd_of_the_beaver_host`, `DZG_partisan_movement`, `DZG_failed_army`, `DZG_cult_of_the_great_dam`;
+- на текущем шаге идеи могут не появляться в интерфейсе сами по себе, потому что они ещё не назначены стране через `history/countries`, фокус или событие;
+- в `error.log` не должно быть ошибок вида `Unexpected token`, `Unknown modifier`, `Missing localization`.
+
+Типичные ошибки:
+
+- лишняя или пропущенная фигурная скобка в `common/ideas`;
+- неправильный отступ или отсутствие первой строки `l_russian:` в `.yml`;
+- кириллица в игровом ID вместо локализации;
+- опечатка между idea ID и ключом локализации;
+- неизвестный модификатор HOI4, который нужно заменить на поддерживаемый.
+
 ## Старт за Данциг
 
 - Проверить, что страна `DZG` существует и доступна для старта или через консольный переход.
@@ -69,4 +104,3 @@
 - Сохранить список ошибок из `error.log`.
 - Разделить ошибки на parser/localization/balance/UX.
 - Обновить [[05_CURRENT_TASKS]] по найденным проблемам.
-

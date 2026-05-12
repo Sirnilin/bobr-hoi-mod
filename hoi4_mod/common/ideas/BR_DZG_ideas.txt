@@ -1,0 +1,57 @@
+ideas = {
+    country = {
+        DZG_first_vozhd_of_the_beaver_host = {
+            allowed = {
+                tag = DZG
+            }
+
+            modifier = {
+                planning_speed = 0.05
+                army_core_attack_factor = 0.05
+                political_power_gain = -0.05
+                stability_factor = -0.03
+            }
+        }
+
+        DZG_partisan_movement = {
+            allowed = {
+                tag = DZG
+            }
+
+            modifier = {
+                army_core_defence_factor = 0.10
+                army_org_regain = 0.05
+                supply_consumption_factor = 0.05
+                stability_factor = -0.05
+            }
+        }
+
+        DZG_failed_army = {
+            allowed = {
+                tag = DZG
+            }
+
+            modifier = {
+                army_attack_factor = -0.10
+                army_defence_factor = -0.05
+                army_org_factor = -0.10
+                training_time_army_factor = 0.10
+                conscription_factor = 0.03
+            }
+        }
+
+        DZG_cult_of_the_great_dam = {
+            allowed = {
+                tag = DZG
+            }
+
+            modifier = {
+                production_speed_infrastructure_factor = 0.10
+                production_speed_bunker_factor = 0.10
+                war_support_factor = 0.03
+                production_speed_arms_factory_factor = -0.05
+                consumer_goods_factor = 0.02
+            }
+        }
+    }
+}
