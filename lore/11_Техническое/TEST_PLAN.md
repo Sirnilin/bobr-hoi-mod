@@ -70,6 +70,7 @@
 - `hoi4_mod/gfx/flags/DZG.tga`
 - `hoi4_mod/gfx/flags/medium/DZG.tga`
 - `hoi4_mod/gfx/flags/small/DZG.tga`
+- `hoi4_mod/common/names/BR_DZG_names.txt`
 
 Ожидаемый результат текущего минимального шага:
 
@@ -77,6 +78,7 @@
 - У `DZG` есть 4 стартовых национальных духа.
 - В интерфейсе нет missing localization для названия страны и этих идей.
 - Флаг отображается как временная заглушка, не как missing texture.
+- В `error.log` нет ошибки `Failed to generate a name for a character` для Данцига.
 
 ## Дерево фокусов
 

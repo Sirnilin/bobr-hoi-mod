@@ -1,0 +1,66 @@
+DZG = {
+    male = {
+        names = {
+            Aleksander
+            Andrzej
+            Jan
+            Kazimierz
+            Marek
+            Pawel
+            Piotr
+            Stanislaw
+            Tadeusz
+            Wladyslaw
+            Albert
+            Erich
+            Friedrich
+            Hans
+            Johann
+            Karl
+            Otto
+            Wilhelm
+        }
+    }
+
+    female = {
+        names = {
+            Anna
+            Ewa
+            Jadwiga
+            Katarzyna
+            Maria
+            Zofia
+            Elsa
+            Greta
+            Helga
+            Marta
+        }
+    }
+
+    surnames = {
+        Brzeg
+        Cieslak
+        Dambrowski
+        Hoffmann
+        Kowalski
+        Krawiec
+        Lewandowski
+        Nowak
+        Pawlak
+        Richter
+        Schreiber
+        Schulz
+        Sokolowski
+        Stein
+        Wendt
+        Zielinski
+    }
+
+    callsigns = {
+        "Great Dam"
+        "River Guard"
+        "Old Canal"
+        "Timberline"
+        "Danzig Watch"
+    }
+}
